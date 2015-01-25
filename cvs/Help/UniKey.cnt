@@ -1,0 +1,31 @@
+:Base UniKey
+:Title UniKey 3.5 - Vietnamese Keyboard for Windows
+1 How to view this help file=IDH_VIEW_HELP
+1 The GNU General Public License=IDH_GPL
+1 Xin h·y chó ý ®äc=IDH_README_FIRST
+1 Giíi thiÖu chung
+2 Ch­¬ng tr×nh=IDH_ABOUT
+2 TiÕng ViÖt trong Windows=IDH_WINDOWS_VIETNAMESE
+2 C¸c b¶ng m· tiÕng VIÖt=IDH_CHARSETS
+2 Dïng tiÕng ViÖt theo chuÈn Unicode=IDH_UNICODE
+1 C¸c kiÓu gâ tiÕng ViÖt th«ng dông
+2 Nguyªn t¾c chung=IDH_GENERAL_TYPING
+2 KiÓu gâ TELEX=IDH_TELEX_METHOD
+2 KiÓu gâ VNI=IDH_VNI_METHOD
+2 KiÓu gâ VIQR=IDH_VIQR_METHOD
+2 Dïng TELEX hoÆc VNI gâ tiÕng ViÖt VIQR=IDH_VIQR
+1 C¸ch sö dông UniKey
+2 Cµi ®Æt UniKey=IDH_INSTALL
+2 Khëi ®éng, kÕt thóc ch­¬ng tr×nh=IDH_START_STOP
+2 BËt t¾t tiÕng ViÖt=IDH_VIET_SWITCH
+2 ThiÕt lËp chÕ ®é gâ tiÕng ViÖt=IDH_CONFIGURATION
+2 Menu cña UniKey trªn Taskbar=IDH_MENU
+2 BiÓu t­îng cña UniKey trªn Taskbar=IDH_TASKBAR_ICON
+2 ThiÕt lËp gâ t¾t=IDH_MACRO_DEF
+2 ChuyÓn m· tiÕng ViÖt=IDH_CONVERT
+2 C¸c phÝm t¾t=IDH_SHORTCUTS
+2 C¸c tÝnh n¨ng tiªn tiÕn=IDH_ADVANCED
+2 Sö dông UniKey trong Emacs vµ gVim=IDH_NIXAPP
+1 C¸c chó ý khi sö dông UniKey
+2 Sö dông UniKey víi Microsoft Word=IDH_MSWORD
+2 Sö dông UniKey víi c¸c ch­¬ng tr×nh bµn phÝm kh¸c=IDH_OTHER_KEYBOARD

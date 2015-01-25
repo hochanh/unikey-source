@@ -1,0 +1,228 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_KEY_DIALOG DIALOGEX 0, 0, 250, 182
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | 
+    WS_CLIPSIBLINGS | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "UniKey 3.1b - Vietnamese Keyboard  for Windows"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_CODE_TABLE,70,15,100,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Ki”u TELEX",IDC_TELEX,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,14,45,67,10
+    CONTROL         "Ki”u VNI",IDC_VNI,"Button",BS_AUTORADIOBUTTON,14,57,61,
+                    10
+    CONTROL         "CTRL + SHIFT",IDC_SW_KEY1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,106,44,63,10
+    CONTROL         "ALT + Z",IDC_SW_KEY2,"Button",BS_AUTORADIOBUTTON,106,56,
+                    42,10
+    CONTROL         "&Taskbar",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,188,
+                    11,55,17
+    CONTROL         "&K’t thÛc",IDC_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    188,33,55,17
+    CONTROL         "Advanced <<",IDC_EXPAND,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,188,55,55,17
+    CONTROL         "Cho ph–p g‚ d u mÚ, m„c Î cuËi tı",IDC_FREE_MARKING,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,94,130,10
+    CONTROL         "Ph∂i g‚ d u ngay sau nguy™n ©m",IDC_TONE_CTRL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,107,142,10
+    CONTROL         "B· d u oµ, u˝ (thay v◊ ﬂa, Ûy)",IDC_MODERN_STYLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,120,115,10
+    CONTROL         "Vietnamese interface",IDC_VIET_GUI,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,157,93,82,10
+    CONTROL         "BÀt hÈi thoπi nµy khi khÎi ÆÈng",IDC_SHOW_DLG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,139,113,10
+    CONTROL         "Auto-run UniKey at boot time",IDC_AUTO_START,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,138,139,105,10
+    CONTROL         "&H≠Ìng d…n",IDC_OPEN_HELP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,7,157,55,17
+    CONTROL         "Th´ng tin",IDC_ABOUT,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    67,157,55,17
+    CONTROL         "M∆c Æﬁnh",IDC_RESET,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    127,157,55,17
+    GROUPBOX        "ßi“u khi”n",IDC_CONTROL_GROUP,7,7,175,66
+    LTEXT           "B∂ng m∑:",IDC_CHARSET_PROMPT,14,17,52,8,SS_NOPREFIX
+    LTEXT           "Ph›m chuy”n:",IDC_SWITCHKEY_PROMPT,106,32,61,8
+    LTEXT           "Ki‘u g‚ ph›m:",IDC_KEYMODE_PROMPT,14,33,48,8
+    CONTROL         "",IDC_COMPACT_FRAME,"Static",SS_BLACKFRAME,8,6,244,72
+    CONTROL         "",IDC_FOOTER_FRAME,"Static",SS_BLACKFRAME,7,153,234,29
+    GROUPBOX        "L˘a ch‰n",IDC_OPTION_GROUP,7,82,236,51
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 229, 130
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About UniKey 3.1 - Build 010620"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,91,107,46,
+                    16
+    CONTROL         "Email: longp@cslab.felk.cvut.cz",IDC_MAIL_LINK,"Static",
+                    SS_LEFTNOWORDWRAP | SS_NOTIFY | WS_GROUP,39,27,102,8
+    LTEXT           "Web: http://unikey.hypermart.net",IDC_WEB_LINK,39,39,
+                    106,8
+    GROUPBOX        "",-1,7,7,215,59
+    LTEXT           "Author: Pham Kim Long, CTU Prague",IDC_AUTHOR,39,16,163,
+                    8
+    ICON            IDR_MAINFRAME,-1,11,17,20,20
+    LTEXT           " UniKey is a free software, you can redistribute it and/or modify it\n under the terms of the GNU General Public License.\n UniKey supports all Win32 platforms: Windows 9x, ME, NT/2000.",
+                    IDC_INFO,7,73,215,28,SS_NOPREFIX | SS_SUNKEN
+    LTEXT           "Copyright (C) 1998 - 2001 Pham Kim Long",IDC_COPYRIGHT,
+                    39,52,158,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_KEY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Pen.ico"
+IDI_CANCEL              ICON    DISCARDABLE     "res\\cancel.ico"
+IDI_EN                  ICON    DISCARDABLE     "res\\viet-off.ico"
+IDI_VIET                ICON    DISCARDABLE     "res\\viet-on.ico"
+IDI_OK                  ICON    DISCARDABLE     "res\\OK.ico"
+IDI_HELP                ICON    DISCARDABLE     "res\\help.ico"
+IDI_RESET               ICON    DISCARDABLE     "res\\2arrow.ico"
+IDI_CONTRACT            ICON    DISCARDABLE     "res\\ARW06UP.ICO"
+IDI_EXPAND              ICON    DISCARDABLE     "res\\ARW06DN.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_KEY_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Keyboard Menu"
+    BEGIN
+        MENUITEM "Exit",                        ID_END_KEY
+        MENUITEM SEPARATOR
+        MENUITEM "Help",                        ID_OPEN_HELP
+        MENUITEM "Configuration...",            ID_KEY_PANEL
+        MENUITEM SEPARATOR
+        MENUITEM "Telex Typing",                ID_TELEX_TYPING
+        MENUITEM "VNI Typing",                  ID_VNI_TYPING
+        MENUITEM SEPARATOR
+        MENUITEM "TCVN3 (ABC)",                 ID_KEY_TCVN
+        MENUITEM "VN Unicode",                  ID_KEY_UNICODE
+        MENUITEM "VIQR",                        ID_KEY_VIQR
+        MENUITEM "Other",                       ID_KEY_OTHER
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND_CURSOR         CURSOR  DISCARDABLE     "res\\H_POINT.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "UniKey 3.1 - Vietnamese Keyboard for Windows"
+    IDS_ABOUT               "&About UniKey..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

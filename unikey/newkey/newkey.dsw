@@ -1,0 +1,140 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "NewKey"=.\NewKey.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name keyhook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name byteio
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name rtfio
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name vnconv
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "byteio"=..\byteio\byteio.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "keyhook"=..\KEYHOOK\Keyhook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "rtfio"=..\rtfio\rtfio.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "rtfread"=..\..\rtf\reader\rtfread.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "rtftest"=..\rtftest\rtftest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name rtfio
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name byteio
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name vnconv
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "uvconvert"=..\uvconvert\uvconvert.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name vnconv
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "vnconv"=..\vnconv\vnconv.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name byteio
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
